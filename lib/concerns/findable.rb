@@ -1,5 +1,5 @@
 module Concerns::Findable 
-  def find_by_name(name)
+  def find_by_name(name)                  #is added as a class method to classes that extend the module isn't hard-coded
     self.all.detect{|s| s.name == name}
   end
 
