@@ -1,4 +1,5 @@
 class Genre 
+  
   attr_accessor :name 
   attr_reader :songs  #returns the genre's songs 
   
