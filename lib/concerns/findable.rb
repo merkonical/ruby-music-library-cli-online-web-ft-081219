@@ -1,1 +1,1 @@
-module Concerns :: findable
+module Concerns: :Findable
