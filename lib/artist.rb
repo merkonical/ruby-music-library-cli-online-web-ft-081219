@@ -1,5 +1,5 @@
 class Artist 
-  extend
+  extend Concerns
   
   attr_accessor :name 
   attr_reader :songs
